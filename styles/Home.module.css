@@ -1,8 +1,13 @@
 .container {
   padding: 0 2rem;
+  text-align: center;
 }
 .homeTitle {
-  color: red;
+  color: rgb(0, 0, 0);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
@@ -22,6 +27,7 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .footer a {
@@ -29,23 +35,27 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  text-align: center;
 }
 
 .title a {
   color: #0070f3;
   text-decoration: none;
+  text-align: center;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
   text-decoration: underline;
+  text-align: center;
 }
 
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  text-align: center;
 }
 
 .title,
@@ -57,6 +67,7 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .code {
@@ -64,6 +75,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
+  text-align: center;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
@@ -73,6 +85,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  text-align: center;
   max-width: 800px;
 }
 
@@ -86,6 +99,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  text-align: center;
 }
 
 .card:hover,
@@ -93,17 +107,20 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
+  text-align: center;
 }
 
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  text-align: center;
 }
 
 .logo {
@@ -122,9 +139,11 @@
   .card,
   .footer {
     border-color: #222;
+    text-align: center;
   }
   .code {
     background: #111;
+    text-align: center;
   }
   .logo img {
     filter: invert(1);
