@@ -9,6 +9,8 @@ export default function About() {
       <a href="https://m.blog.naver.com/happyhj1025">𝙗𝙡𝙤𝙜</a>
       <h2>깃허브</h2>
       <a href="https://github.com/ra72e6">𝙜𝙞𝙩𝙝𝙪𝙗</a>
+      <h2>dfdf</h2>
+      <a href="http://192.168.139.1:3000/">𝙞dfdf</a>
     </div>
   );
 }
